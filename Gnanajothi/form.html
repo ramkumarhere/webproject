@@ -1,0 +1,30 @@
+<form onsubmit="return validateForm()">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" minlength="8" required>
+  <br>
+   <input type="submit" value="Register">
+</form>
+
+<script>
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var passwordConfirm = document.getElementById("password-confirm").value;
+    if (name == "" || email == "" || password == "" || passwordConfirm == "") {
+      alert("All fields must be filled out");
+      return false;
+    }
+    if (password !== passwordConfirm) {
+      alert("Passwords do not match");
+      return false;
+    }
+    return true;
+  }
+</script>
