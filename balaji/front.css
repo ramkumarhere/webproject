@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+  }
+  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+  }
+  h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+  }
