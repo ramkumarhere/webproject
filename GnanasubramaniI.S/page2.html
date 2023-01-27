@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function Calc(){
+                var val1 = document.getElementById("val1").value;
+                var val2 = document.getElementById("val2").value;
+                var opt = document.getElementById("opt").value;
+                var ans = eval(val1 + opt + val2);
+                document.getElementById("ans").value = ans;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align: center;"><u> CALCULATOR</u></h1>
+          <form>
+            <h1>Enter 1st number : </h1>
+            <input type="number" id="val1" value="5" required="">
+            <h1>Enter 2nd number : </h1>
+            <input type="number" id="val2" value="2" required="">
+          </form>
+          <h1>Select the operation : </h1>
+          <select id="opt" style="font-size: 20px;" >
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+          <hr>
+          <button type="submit" name="submit" class="btn btn-success" onClick="Calc()" style="font-size: large;">Submit</button>
+          <h1>RESULT</h1>
+          <input type="text" class="form-control" id="ans" readonly>
+    </body>
+</html>
