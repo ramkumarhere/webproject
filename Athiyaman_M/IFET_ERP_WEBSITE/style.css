@@ -1,0 +1,140 @@
+body{
+    background: url(ifetbg.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.box{
+    background: white;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 70px 80px;
+}
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 160px;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+p{
+    color: #f49126;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+input[type="submit"]
+{
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+input[type="submit"]:hover
+{
+    background: #0097a7;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #069818;
+}
+
+a:hover
+{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

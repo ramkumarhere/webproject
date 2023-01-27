@@ -1,0 +1,208 @@
+.featured-clay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+    z-index: 2;
+  }
+  
+  .featured-clay > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 25;
+    background: #031242;
+    padding: 30px 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 black, inset 0px -7px 12px 1px black;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .featured-clay > div:nth-child(2) {
+    filter: hue-rotate(15deg);
+  }
+  
+  .featured-clay > div:nth-child(3) {
+    filter: hue-rotate(30deg);
+  }
+  
+  .featured-clay > div:nth-child(4) {
+    filter: hue-rotate(45deg);
+  }
+  
+  .featured-clay > div:nth-child(5) {
+    filter: hue-rotate(60deg);
+  }
+  
+  .featured-clay > div:nth-child(6) {
+    filter: hue-rotate(75deg);
+  }
+  
+  .featured-clay > div > div:nth-child(1) {
+    all: unset;
+    width: 50%;
+    height: 150px;
+    background: url("https://tse1.mm.bing.net/th?id=OIP.tk-7Z0C7kc4gKvqTgeAXLQAAAA&pid=Api&P=0");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+  }
+  
+  .featured-clay > div:nth-child(2) > div:nth-child(1) {
+    background: url("https://tse3.mm.bing.net/th?id=OIP.Ty63hgFaGL27rw18kKHZoAAAAA&pid=Api&P=0");
+  }
+  
+  .featured-clay > div:nth-child(3) > div:nth-child(1) {
+    background: url("https://tse4.mm.bing.net/th?id=OIP.t_GLOWvCzGUpKDpHvKf9aAHaIA&pid=Api&P=0");
+  }
+  
+  .featured-clay > div:nth-child(4) > div:nth-child(1) {
+    background: url("https://tse3.mm.bing.net/th?id=OIP.MTTVImc3Do70eNVwWaWVcgHaHa&pid=Api&P=0");
+  }
+  
+  .featured-clay > div:nth-child(5) > div:nth-child(1) {
+    background: url("https://tse4.mm.bing.net/th?id=OIP.haEyLsjMBbdVEq5qy40e1QHaH3&pid=Api&P=0");
+  }
+  
+  .featured-clay > div:nth-child(6) > div:nth-child(1) {
+    background: url("https://picsum.photos/id/408/600/600");
+  }
+  
+  .featured-clay > div:hover {
+    animation: glow 10s linear infinite;
+    box-shadow: 0 17px 45px 0 black, inset 0px -7px 12px 1px black;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .featured-clay > div:active {
+    transform: scale(0.96);
+  }
+  
+  .featured-clay > div:nth-child(2):hover {
+    animation: glow15 8s linear infinite;
+  }
+  
+  .featured-clay > div:nth-child(3):hover {
+    animation: glow30 8s linear infinite;
+  }
+  
+  .featured-clay > div:nth-child(4):hover {
+    animation: glow45 8s linear infinite;
+  }
+  
+  .featured-clay > div:nth-child(5):hover {
+    animation: glow60 8s linear infinite;
+  }
+  
+  .featured-clay > div:nth-child(6):hover {
+    animation: glow75 8s linear infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  @keyframes glow15 {
+    0% {
+      filter: hue-rotate(15deg);
+    }
+    100% {
+      filter: hue-rotate(375deg);
+    }
+  }
+  
+  @keyframes glow30 {
+    0% {
+      filter: hue-rotate(30deg);
+    }
+    100% {
+      filter: hue-rotate(390deg);
+    }
+  }
+  
+  @keyframes glow45 {
+    0% {
+      filter: hue-rotate(45deg);
+    }
+    100% {
+      filter: hue-rotate(405deg);
+    }
+  }
+  
+  @keyframes glow60 {
+    0% {
+      filter: hue-rotate(60deg);
+    }
+    100% {
+      filter: hue-rotate(420deg);
+    }
+  }
+  
+  @keyframes glow75 {
+    0% {
+      filter: hue-rotate(75deg);
+    }
+    100% {
+      filter: hue-rotate(435deg);
+    }
+  }
+  
+  .featured-clay > div > div:nth-child(2) {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 0px;
+    border-left: 1px solid black;
+  }
+  
+  .featured-clay > div > div:nth-child(2) > h3,
+  .featured-clay > div > div:nth-child(2) > p,
+  .featured-clay > div > div:nth-child(2) > a {
+    margin: 0;
+    padding: 0;
+    line-height: 12pt;
+  }
+  
+  .featured-clay > div > div:nth-child(2) > h3 {
+    font-size: 18pt;
+    color: white;
+    line-height: 26pt;
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  
+
+  
+  .featured-clay > div > div:nth-child(2) > a {
+    background: seagreen;
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 7px;
+  }
