@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="pagemove.css">
+  <link rel="stylesheet" href="page.html">
+</head>
+
+<body>
+  <header>
+    <center>
+      <h1>IFET COLLEGE OF ENGINEERING</h1>
+    </center>
+    <center>
+      <h3>(ELECTRONICS AND COMMUNICATION ENGINEERING)</h3>
+    </center>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="page.html">Placement</a>
+    <div class="dropdown">
+      <button class="dropbtn">courses
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ececourse.html">ECE software course</a>
+        <a href="#">software course</a>
+      </div>
+    </div>
+    <a href="members.html">Members</a>
+    <a href="https://www.ifet.ac.in/ECE.php">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+  <hr>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img
+        src="image ece/sphere-grid-wave-with-binary-code-ai-artificial-intelligence-logo-hand-machine-learning-concept_127544-855.webp"
+        style="width: 100%; height: 450px;">
+      <div class="text">ARTFICIAL INTELLIGENCE</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image ece/new.jpg" style="width:100%" height="450px">
+      <div class="text"> COMMUNICATION BRAIN </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image ece/wp2044743.jpg" style="width:100%" height="450px">
+      <div class="text">MICROPROCESSOR</div>
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+  </script>
+  <hr>
+  <div style="background-color: #97b3c1;">
+    <marquee behavior="alternative" direction="left">WELCOME TO DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</marquee>
+    <marquee behavior="alternative" direction="left">WELCOME TO DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</marquee>
+  </div>
+  <hr>
+  <section style="background-color: #8ec1db;">
+    <div id="intr">
+      <center><img src="image ece/introduction.jpg" height="370px" width="100%"
+          style="background-color: #b1daee; margin: 10px;margin-top: 27px;"></center>
+    </div>
+    <div class="intro">
+      <h2 style="font-style: italic;  text-decoration:underline; text-align: center;"></h2>
+      <P style="font-style: italic; text-align: justify;margin: 20px;font-size: x-large;line-height-step: 1px;">Introduction to ECE Concepts is
+        designed to be an introduction to
+        the broad field of electrical and computer
+        engineering (ECE). The course will cover a range of topics identified as most relevant to the field while
+        preparing students for subsequent, sophomore-level courses. Topics that surround the field of ECE will be
+        highlighted, such as resistor networks, circuit simulation, op-amp design, power supply design and Thevenin
+        analysis, computer logic, hardware, and software. As students are introduced to these topics, elements of
+        engineering professionalism, along with an exploration of ECE in society, will be intertwined with the
+        development
+        of more technical skills. Hands-on exercises is where students will apply theory-to-practice by designing
+        circuits
+        that can be used as building blocks in future courses. Students will use the Lab-in-a-box kit and also build a
+        project, such as a solar-powered battery charger, that integrates hardware and software through the application
+        of
+        power supplies, signal and power conditioning, and simple microcontroller programming.
+      </P>
+    </div>
+  </section>
+  <br>
+
+  <section style="background-color: #93a6c5;">
+    <div id="ele">
+      <center><img src="image ece/29163271.jpg" height="370px" width="90%"
+        style="margin: 10px;margin-left:10 px;"></center>
+    </div>
+    <div class="electro">
+      <h2 style="font-style: italic; text-decoration:underline; text-align: center;">ELECTRONICS</h2>
+      <P style="font-style: normal; text-align: justify; font-size: x-large;margin-left: 10px;">
+        The field of electronics is a branch of physics and electrical engineering that deals with the emission,
+        behaviour
+        and effects of electrons using electronic devices. Electronics uses active devices to control electron flow by
+        amplification and rectification, which distinguishes it from classical electrical engineering, which only uses
+        passive effects such as resistance, capacitance and inductance to control electric current flow.
+        Electronics has hugely influenced the development of modern society. The central driving force behind the entire
+        electronics industry is the semiconductor industry sector, which has annual sales of over $481 billion as of
+        2018.
+        The largest industry sector is e-commerce, which generated over $29 trillion in 2017.
+      </P>
+    </div>
+  </section>
+  <br>
+  <section style="background-color: #67e8e8;">
+    <div id="co">
+      <center><img src="image ece/communication.webp" height="370px" width="100%"
+          style="margin: 10px;margin-top: 27px;"></center>
+    </div>
+    <div class="comm">
+    <h2 style="font-style: italic; text-decoration:underline; text-align: center;">COMMUNICATION</h2>
+    <P style="font-style: italic; text-align: justify;font-size: x-large;">
+      Communication is usually defined as the transmission of information. The term can also refer to the message itself
+      or the field of inquiry studying these transmissions, also known as communication studies. There are some
+      disagreements about the precise definition of communication, for example, whether unintentional or failed
+      transmissions are also included and whether communication does not just transmit meaning but also create it.
+      Models
+      of communication aim to provide a simplified overview of its main components and their interaction. Many of them
+      include the idea that a source uses a coding system to express information in the form of a message. They use a
+      channel to send it to a receiver who has to decode it in order to understand its meaning. Channels are usually
+      discussed in terms of the senses used to perceive the message, like hearing, sight, smell, touch, and taste.
+    </P>
+    </div>
+  </section>
+  <br>
+  <hr>
+  <section style="background-color: #8dc7e3;">
+
+    <video controls muted height="350" width="20%" style="margin-top: 5px;margin-bottom: 5px ;float: left;" autoplay
+      loop>
+      <source src="video/b2ec1f2c0e3436e2091a75553c01dfe2.mp4" type="video/mp4" width="250px" height="50px">
+    </video>
+    <article style="background-color:#8dc7e3;">
+  
+      <center>
+        <h1>Electronics and Communications Engineering (ECE)</h1>
+        <p style="text-align: justify;float: left;font-size: large;"> Electronics and Communications Engineering (ECE) involves researching,
+          designing, developing, and testing
+          electronic equipment used in various systems. Electronics and Communications engineers also conceptualize and
+          oversee the manufacturing of communications and broadcast systems. This stream of engineering deals with
+          analog
+          transmission, basic electronics, microprocessors, solid-state devices, digital and analog communication,
+          analog
+          integrated circuits, microwave engineering, satellite communication, antennae, and wave progression. It also
+          deals with the manufacturing of electronic devices, circuits, and communications equipment. In India,
+          Electronics and Communications Engineering is offered by various colleges at the UG as well PG level leading
+          to
+          BTech (4 years) and MTech (2 years) degrees respectively. </p>
+      </center>
+    </article>
+    <video controls muted height="350" width="20%" style="margin-top: 5px;margin-bottom: 5px;float: right;" autoplay
+      loop>
+      <source src="video/b2ec1f2c0e3436e2091a75553c01dfe2.mp4" type="video/mp4" width="250px" height="50px">
+    </video>
+  </section>
+  <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <center>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="home.html" class="active">1</a>
+      <a href="page.html">2</a>
+      <a href="ececourse.html">3</a>
+      <a href="members.html">4</a>
+      <a href="">5</a>
+      <a href="#">&raquo;</a>
+    </div>
+  </center>
+
+    <br>
+    <br>
+
+
+    <div class="container my-5">
+      <footer class="text-center text-lg-start" style="background-color: #3a95c3; padding:auto;">
+        <br>
+        <div class="container d-flex justify-content-center py-5" style="text-align: center;">
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #8a9888;">
+            <i class="fab fa-facebook-f">Gmail</i>
+            <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+              href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i class="fa"></i></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #413ea7;">
+            <i class="fab fa-youtube">linked in</i>
+            <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+              href="https://www.linkedin.com/company/w3schools.com/" title="W3Schools on LinkedIn"><i
+                class="fa"></i></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #be3673;">
+            <i class="fab fa-instagram">instragram</i>
+            <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+              href="https://instagram.com/itz__donald__003?igshid=Yzg5MTU1MDY=" title="W3Schools on Instagram"><i
+                class="fa"></i></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #22b62e;">
+            <i class="fab fa-twitter">whatsapp</i>
+            <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+              href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i class="fa"></i></a>
+          </button>
+        </div>
+        <div class="text-center text-white p-3" style="background-color: rgba(177, 161, 161, 0.2);">
+          <br>
+          <a style="font-style: italic; font-size:small;">
+            <CENTER> mobile no:+91 9600 250 499</CENTER>
+          </a>
+          <br>
+          <a style="font-style: italic; font-size:small;">
+            <center>Address:IFET college of engineering,<br>IFET nagar,gangarapalayam,<br>villupuram,Tamil Nadu
+            </center>
+          </a>
+          <br>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

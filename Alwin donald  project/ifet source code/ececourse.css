@@ -1,0 +1,15 @@
+*{
+    margin:10px;
+
+
+}
+p{
+    background-color: rgb(147, 223, 223);
+}
+h1{
+    text-decoration: underline;
+    background-color: aqua;
+}
+h2{
+    background-color: rgb(78, 214, 214);
+}

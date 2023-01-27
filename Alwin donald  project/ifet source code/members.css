@@ -1,0 +1,15 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-image: url(download.jpg)
+  }
+  
+  td, th {
+    border: 1px solid #be8a8a;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  
