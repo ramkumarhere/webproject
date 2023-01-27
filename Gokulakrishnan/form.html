@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>forms</title>
+</head>
+<body>
+<form id="myForm">
+  Name: <input type="text" id="name"><br>
+  Email: <input type="email" id="email"><br>
+  Password: <input type="password" id="password"><br>
+  <input type="button" value="Submit" onclick="validateForm()">
+</form>
+<script>
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  if (name == "") {
+    alert("Name is required");
+    return false;
+  }
+  if (email == "") {
+    alert("Email is required");
+    return false;
+  }
+  if (password == "") {
+    alert("Password is required");
+    return false;
+  }
+  alert("Form submitted successfully!");
+  return true;
+}
+</script>
+</body>
