@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+          background-image: url('image3.png');
+        }
+        </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+input[type=text], select, textarea {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+margin-top: 4px;
+margin-bottom: 10px;
+}
+input[type=submit] {
+background-color:Blue;
+padding: 8px 8px;
+}
+.container {
+width:100%;
+border-radius: 6px;
+background-color: #EFF6F6;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<h3>We welcome your suggestions</h3>
+<div class="container">
+<form>
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Enter Your name">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Enter Your last name">
+<label for="ename">Email</label>
+<input type="text" id="ename" name="email" placeholder="Enter Your Email here">
+<label for="mobno">Contact No</label>
+<input type="text" id="mobno" name="mobno" placeholder="Enter Your Contact Number">
+<label for="subject">Feedback</label>
+<textarea id="subject" name="subject" placeholder="Give your feedback
+"style="height:50px"></textarea>
+<input type="submit" value="Send">
+</form>
+</div>
+</body>
+</html>
+
+
