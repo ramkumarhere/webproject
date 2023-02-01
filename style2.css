@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/hi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;  
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+   
+}
+ul li a:hover{
+    color: rgb(9, 9, 9);
+    background-color: white;
+    transition: 0.5s ease;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: gray;
+    font-size: 30px;
+    
+}
+.button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    padding: 10px 20px ;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: large;
+}
+.btn:hover{
+    color: rgb(9, 9, 9);
+    background-color: white;
+    transition: 0.5s ease;
+}
